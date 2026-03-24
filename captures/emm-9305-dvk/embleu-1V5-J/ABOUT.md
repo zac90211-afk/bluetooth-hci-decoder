@@ -9,7 +9,7 @@
 ## HW/SW Configuration
 
 * [EMDVK9305SOC](https://www.emmicroelectronic.com/sites/default/files/products/datasheets/EM9305%20SOC%20DVK%20FACTSHEET.pdf) &thinsp;&ratio;&thinsp; **EM Microelectronic EM9305 SOC DVK**
-* [EM9305 SoC](https://www.emmicroelectronic.com/product/standard-protocols/em-bleu-em9305) &thinsp;&ratio;&thinsp; 48 MHz ARC EM7D &thinsp;·&thinsp; 512 KB flash &thinsp;·&thinsp; 64 KB SRA
+* [EM9305 SoC](https://www.emmicroelectronic.com/product/standard-protocols/em-bleu-em9305) &thinsp;&ratio;&thinsp; 48 MHz ARC EM7D &thinsp;·&thinsp; 512 KB flash &thinsp;·&thinsp; 64 KB SRAM
 * [BOARD PINOUT](https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/emm-9305-dvk.png) &thinsp;⚙️
 
 * [EM Bleu SDK](https://www.emmicroelectronic.com/contact-us) &ndash; version 4.4.1

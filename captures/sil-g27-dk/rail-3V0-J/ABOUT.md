@@ -22,13 +22,13 @@
 
 ### 🟠&ensp;1&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM<img src="../../../docs/images/em-dot.svg" width="12" alt="">eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 | 26.0 µJ | 33.5 µJ |  2.9 J | 27.61 |
 
 ### 🟠&ensp;10&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM<img src="../../../docs/images/em-dot.svg" width="12" alt="">eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 | 26.0 µJ | 101.4 µJ |  0.9 J | 91.28 |
 

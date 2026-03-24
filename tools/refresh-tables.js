@@ -255,10 +255,10 @@ function mkDateBadge(date, color) {
 
 function mkMedal(s) {
     switch (s) {
-        case 'G': return `${SP(2)}<b>🥇</b>`
-        case 'S': return `${SP(2)}<b>🥈</b>`
-        case 'B': return `${SP(2)}<b>🥉</b>`
-        default: return `${SP(4)}&thinsp;`
+        case 'G': return `${SP(2)}<img src="images/gold-medal.svg" width="20" height="20" alt="🥇">`
+        case 'S': return `${SP(2)}<img src="images/silver-medal.svg" width="20" height="20" alt="🥈">`
+        case 'B': return `${SP(2)}<img src="images/bronze-medal.svg" width="20" height="20" alt="🥉">`
+        default:  return `${SP(2)}<img src="images/empty-medal.svg" width="20" height="20" alt="">`
     }
 }
 

@@ -1,2 +1,5 @@
-<!-- empty-medal.svg (fully transparent slot) -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"/>
+<!-- empty-medal.svg (empty/unawarded slot) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="10" y="2" width="4" height="6" rx="1" fill="#8b949e" opacity=".4"/>
+  <circle cx="12" cy="15" r="6" fill="none" stroke="#8b949e" stroke-width="1.5" opacity=".6"/>
+</svg>

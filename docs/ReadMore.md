@@ -1,3 +1,4 @@
+<!-- @upd|2025-11-30|updated Nordic nRF54L15 results with lower sleep current|-->
 <!-- @upd|2025-10-28|latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark|-->
 <!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->

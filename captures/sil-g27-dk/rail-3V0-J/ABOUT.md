@@ -8,8 +8,11 @@
 
 ## HW/SW Configuration
 
-
-
+| Parameter | Value |
+|:---|:---|
+| Board | [EFR32xG27 Development Kit](https://www.silabs.com/development-tools/wireless/efr32xg27-development-kit) (BRD2602A) |
+| SDK | Simplicity SDK (RAIL) |
+| DCDC | disabled |
 
 
 ## EM&bull;Scope results · JS220
@@ -40,4 +43,4 @@
 
 <!-- @emscope-pack:end -->
 
-* not sure DCDC is enabled
+* sleep current is higher than expected because DCDC is disabled; enabling DCDC should significantly reduce both sleep and active-mode power

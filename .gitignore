@@ -17,3 +17,5 @@ libs
 .DS_Store
 obj/
 bin
+node_modules
+package-lock.json

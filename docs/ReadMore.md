@@ -1,3 +1,4 @@
+<!-- @upd|2025-11-30|updated Nordic nRF54L15 results with lower sleep current|-->
 <!-- @upd|2025-10-28|latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark|-->
 <!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
@@ -45,9 +46,15 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @medals-begin -->
 <details open><summary>&emsp;&ensp;1&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code> 58.54</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code> 51.56</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code> 46.94</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;Nordic nRF54L15 · Zephyr OS · 1V8<br>
 
 </p></details>
 <details open><summary>&emsp;10&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>408.41</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>197.07</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;Texas Instruments CC2340R5 · SimpleLink SDK · 2V2<br>
 
 </p></details>
 <!-- @medals-end -->
@@ -56,7 +63,8 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark</summary><p>
+&emsp;&thinsp;<img src="images/badge-2025-11-30.svg" height="16" alt="2025-10-12"></img>&emsp;updated Nordic nRF54L15 results with lower sleep current</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark<br>
 &emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
 &emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
 &emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
@@ -68,7 +76,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-260324145116
+260324145758
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   💻 <a href="https://vimeo.com/1143876573/ea5b01d4fa?fl=ip&fe=ec__s=h1i6g41pfmvr9sn57rsi&utm_source=drip&utm_medium=email&utm_campaign=BlueJoule+Webinar+Recording&utm_content=BlueJoule+Webinar+Recording+%28Attended%29">Webinar</a>
@@ -147,8 +155,15 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 <!-- @catalog-begin -->
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
+| `adi-m17-ek/msdk-3V3`&emsp; | 📄&ensp;<a href="../captures/adi-m17-ek/msdk-3V3-J/ABOUT.md">&nearr;</a> |  | &emsp; Analog Devices MAX32655 · Maxim SDK · 3V3 |
+| `emm-9305-dvk/embleu-1V5`&emsp; | 📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V5 |
+| `in-100-dk/nanobeacon-1V5`&emsp; | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a> |  | &emsp; InPlay IN100 · NanoBeacon · 1V5 |
+| `nrf-52-dk/zephyr-2V7`&emsp; | 📄&ensp;<a href="../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · Zephyr OS · 2V7 |
+| `nrf-54-dk/zephyr2-1V8`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
+| `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
 | `sil-g24-ek/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/sil-g24-ek/rail-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0 |
 | `sil-g27-dk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/sil-g27-dk/rail-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0 |
+| `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
 <!-- @catalog-end -->
 
 </details>
@@ -179,6 +194,13 @@ To keep the table manageable in size, we've applied the following filter criteri
     
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] |
 |---|:---:|:---:|:---:|:---:|
+| `adi-m17-ek/msdk-3V3         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/adi-m17-ek/msdk-3V3-J/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 48.2</code> | <code> 14.75</code> | <code> 47.75</code> |
+| `emm-9305-dvk/embleu-1V5     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.5</code> | <code> 15.1</code> | <code> 58.54</code> | <code>408.41</code> |
+| `in-100-dk/nanobeacon-1V5    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md#typical-event "InPlay IN100 · NanoBeacon · 1V5") | <code> 0.4</code> | <code> 17.3</code> | <code> 51.56</code> | <code>386.73</code> |
+| `nrf-52-dk/zephyr-2V7        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | <code> 1.3</code> | <code> 27.0</code> | <code> 30.39</code> | <code>148.96</code> |
+| `nrf-54-dk/zephyr2-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 2.2</code> | <code> 15.8</code> | <code> 46.94</code> | <code>167.49</code> |
+| `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
+| `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 
 <p>&nbsp;</p>
@@ -190,8 +212,15 @@ To keep the table manageable in size, we've applied the following filter criteri
     
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] |
 |---|:---:|:---:|:---:|:---:|
+| `adi-m17-ek/msdk-3V3         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/adi-m17-ek/msdk-3V3-J/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 48.2</code> | <code> 14.75</code> | <code> 47.75</code> |
+| `emm-9305-dvk/embleu-1V5     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.5</code> | <code> 15.1</code> | <code> 58.54</code> | <code>408.41</code> |
+| `in-100-dk/nanobeacon-1V5    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md#typical-event "InPlay IN100 · NanoBeacon · 1V5") | <code> 0.4</code> | <code> 17.3</code> | <code> 51.56</code> | <code>386.73</code> |
+| `nrf-52-dk/zephyr-2V7        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | <code> 1.3</code> | <code> 27.0</code> | <code> 30.39</code> | <code>148.96</code> |
+| `nrf-54-dk/zephyr2-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 2.2</code> | <code> 15.8</code> | <code> 46.94</code> | <code>167.49</code> |
+| `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
 | `sil-g24-ek/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g24-ek/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0") | <code> 3.9</code> | <code> 37.2</code> | <code> 18.98</code> | <code> 60.49</code> |
 | `sil-g27-dk/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g27-dk/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0") | <code> 2.5</code> | <code> 26.0</code> | <code> 27.61</code> | <code> 91.28</code> |
+| `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 </details>
 

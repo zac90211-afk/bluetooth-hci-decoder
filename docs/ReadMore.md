@@ -1,3 +1,4 @@
+<!-- @upd|2025-11-30|updated Nordic nRF54L15 results with lower sleep current|-->
 <!-- @upd|2025-10-28|latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark|-->
 <!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
@@ -62,13 +63,13 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-11-30.svg" height="16" alt="2025-10-12"></img>&emsp;updated Nordic nRF54L15 results with lower sleep current</summary><p>
-&emsp;&emsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark<br>
-&emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
-&emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
-&emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
-&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
-&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
+&emsp;&thinsp;<img src="images/badge-2025-11-30.svg" height="16" alt="2025-11-30" />&emsp;updated Nordic nRF54L15 results with lower sleep current</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-28" />&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark<br>
+&emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-26" />&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
+&emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-22" />&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
+&emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-17" />&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
+&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-09-11" />&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
+&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-09-09" />&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
 </p></details>
 <!-- @updates-end -->
 
@@ -144,7 +145,7 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository catalogs an inventory of **EM&bull;Scope** capture directories &ndash; each populated using the `emscope grab` command with either its `-J, --js220` or its `-P, --ppk2` option while powering the target hardware at a designated voltage.
 
-An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration in greater deetail as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
+An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration in greater detail as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
 
 <h4 align=“left”>CAPTURE INVENTORY&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 

@@ -181,8 +181,7 @@ To keep the table manageable in size, we've applied the following filter criteri
     
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] |
 |---|:---:|:---:|:---:|:---:|
-
-
+| *No curated Entry scores are currently available. See JS220 scores below for full results.* | – | – | – | – |
 <p>&nbsp;</p>
 <h4 align="left">ALL JS220 SCORES&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 

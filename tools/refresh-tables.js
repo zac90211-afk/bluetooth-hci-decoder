@@ -250,7 +250,7 @@ function mkDateBadge(date, color) {
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
     Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))
-    return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
+    return `<img src="images/badge-${date}.svg" height="16" alt="${date}">`
 }
 
 function mkMedal(s) {

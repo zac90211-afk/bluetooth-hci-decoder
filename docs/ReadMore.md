@@ -12,6 +12,8 @@
 <!-- @entry|nrf-52-dk/zephyr-2V7-J| -->
 <!-- @entry|nrf-54-dk/zephyr2-1V8-J| -->
 <!-- @entry|sil-g22e-ehk/rail-1V8-J| -->
+<!-- @entry|sil-g24-ek/rail-3V0-J| -->
+<!-- @entry|sil-g27-dk/rail-3V0-J| -->
 <!-- @entry|ti-23-lp/simplelink-2V2-J| -->
 
 <!-- @medal|1|emm-9305-dvk/embleu-1V5-J      |G| -->

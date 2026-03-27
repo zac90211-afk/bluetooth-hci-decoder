@@ -11,6 +11,8 @@
 <!-- @entry|nrf-52-dk/zephyr-2V7-J| -->
 <!-- @entry|nrf-54-dk/zephyr2-1V8-J| -->
 <!-- @entry|sil-g22e-ehk/rail-1V8-J| -->
+<!-- @entry|sil-g24-ek/rail-3V0-J| -->
+<!-- @entry|sil-g27-dk/rail-3V0-J| -->
 <!-- @entry|ti-23-lp/simplelink-2V2-J| -->
 
 <!-- @medal|1|emm-9305-dvk/embleu-1V5-J      |G| -->
@@ -219,6 +221,8 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `nrf-52-dk/zephyr-2V7        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | <code> 1.3</code> | <code> 27.0</code> | <code> 30.39</code> | <code>148.96</code> |
 | `nrf-54-dk/zephyr2-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 2.2</code> | <code> 15.8</code> | <code> 46.94</code> | <code>167.49</code> |
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
+| `sil-g24-ek/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g24-ek/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0") | <code> 3.9</code> | <code> 37.2</code> | <code> 18.98</code> | <code> 60.49</code> |
+| `sil-g27-dk/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g27-dk/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0") | <code> 2.5</code> | <code> 26.0</code> | <code> 27.61</code> | <code> 91.28</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 

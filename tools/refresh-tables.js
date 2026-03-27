@@ -68,7 +68,7 @@ function genCatalog() {
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 `
-    for (const targ of TARGS) {
+    for (const targ of Array.from(TARGS).sort()) {
         let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
         for (const suf of ['-J', '-P']) {
@@ -140,7 +140,6 @@ ${genScoreTab('PPK2')}
 
 function genScoreTab(aname) {
     const is_entry = (aname == 'Entry')
-    const pre = `${aname.toLowerCase()}/`
     const suf = !is_entry ? `-${aname[0]}` : undefined
     let res = ''
     if (aname == 'Entry') {
@@ -166,7 +165,6 @@ function genScoreTab(aname) {
             desc = `"${about.match(DESC_RE)[1]}"`
         }
         let line = `| ${BQ}${cn}${BQ}&nbsp;📈&nbsp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | ${sleep} | ${eveng} | ${ems1} | ${ems10} |`
-        getResults(v)
         res += `${line}\n`
     }
     return res
@@ -187,6 +185,9 @@ ${yy}${mm}${dd}${HH}${MM}${SS}
 }
 
 function genUpdates() {
+    if (UPDATES.length === 0) {
+        return `<!-- @updates-begin -->\n<!-- @updates-end -->`
+    }
     let res = `<!-- @updates-begin -->
 <details><summary>
 `
@@ -250,7 +251,7 @@ function mkDateBadge(date, color) {
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
     Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))
-    return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
+    return `<img src="images/badge-${date}.svg" height="16" alt="${date}" />`
 }
 
 function mkMedal(s) {
@@ -272,10 +273,6 @@ function mkNum(ns, pad) {
     }
     const uA = `0.${segs[0].slice(0, 3)}`
     return `<code>${uA.padStart(pad, '\u00A0')}</code>`
-}
-
-function SP(n) {
-    return '&nbsp;'.repeat(n)
 }
 
 const FILE = 'docs/ReadMore.md'

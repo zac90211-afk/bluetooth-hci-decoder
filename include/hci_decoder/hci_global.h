@@ -33,6 +33,7 @@
 
 #include <iostream>
 #include <json/json.h>
+#include <cstdint>
 
 //excluding command code decode from parameter length field
 #define COMMAND_FRAME_OFFSET 3

@@ -32,6 +32,7 @@
 #define HCIEVENTPACKET_H
 
 #include <iostream>
+#include <array>
 #include "hci_decoder/IHciEventFrame.h"
 #include "hci_decoder/IAdStructureFrame.h"
 #include "advertising_packet.h"
@@ -70,7 +71,7 @@ typedef struct {
 	uint8_t address_type;            /* 1B | 0x00 Public Device Address | 0x01 Random Device Address | 0x02 Public Identity Address (Corresponds to Resolved Private Address) | 0x03 Random (static) Identity Address (Corresponds to Resolved Private Address)*/
 	uint8_t address[6];              /* 6B | Public Device Address, Random Device Address, Public Identity Address or Random (static) Identity Address of the advertising device*/
 	uint8_t length_data;             /* 1B | Length of the Data[i] field for each device which responded */
-	uint8_t data[];                  /* XB | Length_Data[i] octets of advertising or scan response data */
+	std::array<uint8_t, 31> data;    /* XB | Length_Data[i] octets of advertising or scan response data (max 31B) */
 	uint8_t rssi;                    /* 1B | Size: 1 Octet (signed integer) Range: -127 ≤ N ≤ +20 Units: dBm */
 
 }le_advertising_report;

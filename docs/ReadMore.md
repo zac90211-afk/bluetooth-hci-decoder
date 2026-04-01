@@ -6,21 +6,14 @@
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
 <!-- @upd|2025-09-09|inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
 
-<!-- @entry|adi-m17-ek/msdk-3V3-J| -->
-<!-- @entry|emm-9305-dvk/embleu-1V5-J| -->
-<!-- @entry|in-100-dk/nanobeacon-1V5-J| -->
-<!-- @entry|nrf-52-dk/zephyr-2V7-J| -->
-<!-- @entry|nrf-54-dk/zephyr2-1V8-J| -->
-<!-- @entry|sil-g22e-ehk/rail-1V8-J| -->
-<!-- @entry|ti-23-lp/simplelink-2V2-J| -->
+<!-- @entry|sil-g24-ek/rail-3V0-J| -->
+<!-- @entry|sil-g27-dk/rail-3V0-J| -->
 
-<!-- @medal|1|emm-9305-dvk/embleu-1V5-J      |G| -->
-<!-- @medal|1|in-100-dk/nanobeacon-1V5-J     |S| -->
-<!-- @medal|1|nrf-54-dk/zephyr2-1V8-J        |B| -->
+<!-- @medal|1|sil-g27-dk/rail-3V0-J         |G| -->
+<!-- @medal|1|sil-g24-ek/rail-3V0-J         |S| -->
 
-<!-- @medal|10|emm-9305-dvk/embleu-1V5-J     |G| -->
-<!-- @medal|10|in-100-dk/nanobeacon-1V5-J    |S| -->
-<!-- @medal|10|ti-23-lp/simplelink-2V2-J     |B| -->
+<!-- @medal|10|sil-g27-dk/rail-3V0-J        |G| -->
+<!-- @medal|10|sil-g24-ek/rail-3V0-J        |S| -->
 
 
 <p align="center">
@@ -46,9 +39,13 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @medals-begin -->
 <details open><summary>&emsp;&ensp;1&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>🥇</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code> 27.61</code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;📄&ensp;<a href="../captures/sil-g27-dk/rail-3V0-J/ABOUT.md">&nearr;</a>&emsp;&emsp;&emsp;SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>🥈</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code> 18.98</code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;📄&ensp;<a href="../captures/sil-g24-ek/rail-3V0-J/ABOUT.md">&nearr;</a>&emsp;&emsp;&emsp;SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0<br>
 
 </p></details>
 <details open><summary>&emsp;10&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>🥇</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code> 91.28</code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;📄&ensp;<a href="../captures/sil-g27-dk/rail-3V0-J/ABOUT.md">&nearr;</a>&emsp;&emsp;&emsp;SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>🥈</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<code> 60.49</code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;📄&ensp;<a href="../captures/sil-g24-ek/rail-3V0-J/ABOUT.md">&nearr;</a>&emsp;&emsp;&emsp;SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0<br>
 
 </p></details>
 <!-- @medals-end -->
@@ -70,7 +67,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-260327131525
+260401113426
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   💻 <a href="https://vimeo.com/1143876573/ea5b01d4fa?fl=ip&fe=ec__s=h1i6g41pfmvr9sn57rsi&utm_source=drip&utm_medium=email&utm_campaign=BlueJoule+Webinar+Recording&utm_content=BlueJoule+Webinar+Recording+%28Attended%29">Webinar</a>
@@ -181,6 +178,8 @@ To keep the table manageable in size, we've applied the following filter criteri
     
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] |
 |---|:---:|:---:|:---:|:---:|
+| `sil-g24-ek/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g24-ek/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0") | <code> 3.9</code> | <code> 37.2</code> | <code> 18.98</code> | <code> 60.49</code> |
+| `sil-g27-dk/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g27-dk/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0") | <code> 2.5</code> | <code> 26.0</code> | <code> 27.61</code> | <code> 91.28</code> |
 
 
 <p>&nbsp;</p>

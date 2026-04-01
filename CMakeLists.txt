@@ -3,8 +3,17 @@ cmake_minimum_required (VERSION 2.6)
 project(hci-decoder)
 add_subdirectory( btsnoop-decoder )
 
-if(UNIX)
-    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32 -Wall -std=c++11")
+find_package(Threads REQUIRED)
+
+option(BUILD_32BIT "Build 32-bit binary" OFF)
+
+if(MSVC)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W3")
+elseif(UNIX)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++11")
+    if(BUILD_32BIT)
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
+    endif()
 endif()
 
 set(LIBRARY_OUTPUT_PATH lib/${CMAKE_BUILD_TYPE})
@@ -38,13 +47,13 @@ add_library(
 target_link_libraries(
         bthci_static
         btsnoop_static
-        pthread
+        Threads::Threads
 )
 
 target_link_libraries(
         bthci
         btsnoop_static
-        pthread
+        Threads::Threads
 )
 
 # test build
@@ -64,5 +73,5 @@ target_link_libraries(
         bthci-test
         bthci_static
         btsnoop_static
-        pthread
+        Threads::Threads
 )

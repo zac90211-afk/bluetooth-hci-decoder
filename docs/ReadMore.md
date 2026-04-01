@@ -42,7 +42,7 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) project to learn more about the **EM&bull;Scope** tool itself.
 
-<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉</h4>
+<h4 align="left">MEDALISTS&emsp;🥇 · 🥈 · 🥉</h4>
 
 <!-- @medals-begin -->
 <details open><summary>&emsp;&ensp;1&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
@@ -70,7 +70,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-260327131525
+260401113010
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   💻 <a href="https://vimeo.com/1143876573/ea5b01d4fa?fl=ip&fe=ec__s=h1i6g41pfmvr9sn57rsi&utm_source=drip&utm_medium=email&utm_campaign=BlueJoule+Webinar+Recording&utm_content=BlueJoule+Webinar+Recording+%28Attended%29">Webinar</a>

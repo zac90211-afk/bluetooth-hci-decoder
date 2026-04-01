@@ -248,6 +248,9 @@ function mkLink(cn) {
 }
 
 function mkDateBadge(date, color) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+        throw new Error(`Invalid date format: "${date}". Expected format: YYYY-MM-DD.`)
+    }
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
     Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))

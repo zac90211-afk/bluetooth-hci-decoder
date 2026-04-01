@@ -33,13 +33,13 @@ Syntax : ``./bthci-test <btsnoop_file>``
 ./bin/bthci-test ./snoop_files/btsnoop_hci.log
 ```
 
-##Decoding
+## Decoding
 
-###Decode frame
+### Decode frame
 
 Input should be a single HCI frame in `std::vector<char> packet` format
 
-Instanciate a `HciDecoder` class and call `IHciFrame* decode(std::vector<char> packet);` :
+Instantiate a `HciDecoder` class and call `IHciFrame* decode(std::vector<char> packet);` :
 
 ```
 HciDecoder hci_decoder;
@@ -54,7 +54,7 @@ IHciFrame * frame = hci_decoder.decode(packet);
 
 ![architecture](img/arch.png)
 
-###List of HCI frames
+### List of HCI frames
 
 You can retrieve full list of `IHciFrame` decoded with a single `HciDecoder` with `std::vector<IHciFrame*> getFrameList()` method : 
 
@@ -66,7 +66,7 @@ for (unsigned int i = 0; i  < frame_list.size();i++){
 }
 ```
 
-###Complete HCI frame list in JSON array
+### Complete HCI frame list in JSON array
 
 To convert all HCI frames previously decoded to json array format, use `std::string toJson(bool beautify)` :
 
@@ -76,7 +76,7 @@ std::string json_array_list = hci_decoder.toJson(false);
 ```
 <i>`beautify` to `true` will insert indentation and linefeed to string output</i>
 
-##JSON output format
+## JSON output format
 
 Common fields for all HCI frames :
 
@@ -109,7 +109,7 @@ Common fields for all HCI frames :
 	</tr>
 </table>
 
-###Event
+### Event
 
 Common fields for all HCI Event frames:
 
@@ -188,7 +188,7 @@ Example :
 }
 ```
 
-###Command
+### Command
 
 Common fields for all HCI Command frames:
 
@@ -247,7 +247,7 @@ Common fields for all HCI Command frames:
 	}
 }
 ```
-###Model & Supported Command / Events
+### Model & Supported Command / Events
 
 * Packet types
 
@@ -265,7 +265,7 @@ Common fields for all HCI Command frames:
 
 | OGF string                               | OGF value |
 |--------------------|-------------------|
-| HCI_CMD_OGF_LINK_CONTROl_COMMANDS        | 0x01      |
+| HCI_CMD_OGF_LINK_CONTROL_COMMANDS        | 0x01      |
 | HCI_CMD_OGF_LINK_POLICY_COMMANDS         | 0x02      |
 | HCI_CMD_OGF_CONTROLLER_BASEBAND_COMMANDS | 0x03      |
 | HCI_CMD_OGF_INFORMATIONAL_PARAMETERS     | 0x04      |
@@ -437,7 +437,7 @@ Common fields for all HCI Command frames:
 
 <hr/>
 
-##Android integration
+## Android integration
 
 An example using HCI decoder library is provided in `android-example` directory.
 
@@ -454,9 +454,9 @@ cd android-example
 
 ![android application](img/android.png)
 
-###Troubleshoot
+### Troubleshoot
 
-If you dont use Android NDK rc10 in your `Android.mk` change std include with your own path in you android-ndk source :
+If you don't use Android NDK rc10 in your `Android.mk` change std include with your own path in your android-ndk source :
 
 ```
 LOCAL_C_INCLUDES := $NDK/sources/cxx-stl/gnu-libstdc++/4.8/include
@@ -464,11 +464,11 @@ LOCAL_C_INCLUDES := $NDK/sources/cxx-stl/gnu-libstdc++/4.8/include
 
 <hr/>
 
-##External library
+## External library
 
 * json encoding with jsonccp : https://github.com/open-source-parsers/jsoncpp
 * for testing HCI library, bluetooth snoop decoder : https://github.com/bertrandmartel/btsnoop-decoder
 
-##Specifications
+## Specifications
 
 * Bluetooth specifications v4.2 - Volume 2 - Part E Host Controller Interface Functionnal Specification https://www.bluetooth.org

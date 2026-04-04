@@ -1,5 +1,7 @@
 <h1 align="center">SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0</h1>
 
+<p align="center"><img src="../../../docs/images/uc-banner.svg" alt="Under construction" width="420"></p>
+
 <!-- @emscope-pack:start -->
 
 <!-- *** AUTOMATICALLY GENERATED CONTENT – DO NOT EDIT *** -->  
